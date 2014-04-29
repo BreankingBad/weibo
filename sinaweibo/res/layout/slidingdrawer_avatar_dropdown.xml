@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_drawer_menu"
+    android:orientation="horizontal" >
+
+    <!-- round the protrait in adapter,yangxj@20131018 -->
+
+    <com.round.imageview.CircularImage
+        android:id="@+id/avatar"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:maxEms="10"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:text="wokao" />
+    <!-- left,yangxj@20131018 -->
+
+</LinearLayout>
